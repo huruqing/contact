@@ -1,0 +1,15 @@
+一,函数测试 karma start
+二,接口测试
+1)安装phantomjs
+2)安装mocha
+3)安装supertest
+三,e2e端到端测试
+1)安装selenium-webdriver (selenium对于web的驱动)
+2)安装protractor (对webdriver封装的包)
+3)selenium-standalone(启动seleninu服务的东西)
+4)安装chromedriver(下载安装)
+下载地址: http://chromedriver.storage.googleapis.com/index.html?path=2.27/
+
+supertest坑:
+1)request(app),如果是koa则应该是 request(app.listen())
+2)测试的地址不能是完整地址,只能是/xxx的地址

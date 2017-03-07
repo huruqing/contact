@@ -1,11 +1,24 @@
 {
   "dependencies": {
     "co": "^4.6.0",
+    "express": "^4.15.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
     "koa": "^2.0.1",
     "koa-body": "^1.6.0",
     "koa-bodyparser": "^4.1.0",
     "koa-simple-router": "^0.2.0",
     "koa-static": "^3.0.0",
-    "koa-swig": "^2.2.1"
+    "koa-swig": "^2.2.1",
+    "mocha": "^3.2.0",
+    "protractor": "^5.1.1",
+    "selenium-standalone": "^6.0.1",
+    "selenium-webdriver": "^3.3.0",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.2"
   }
 }

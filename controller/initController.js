@@ -9,6 +9,7 @@ const initController = {
         app.use(router(_ => {
             _.all('/index', index.index());
             _.all('/addUser', index.addUser());
+            //_.all('/delUser', index.delUser());
             _.all('/delUser', index.delUser());
             _.all('/saveUser', index.saveUser());
         }));

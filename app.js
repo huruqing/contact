@@ -6,6 +6,7 @@ const config = require('./conf/config.js');
 const serv = require('koa-static');
 const path = require('path');
 const koaBody   = require('koa-body');
+const request = require('supertest');
 
 app.use(serv(config.get('publicDir')));
 //app.use(serv(path.join(__dirname, '..', 'public')));
@@ -22,3 +23,4 @@ app.context.render = co.wrap(render({
 app.listen(config.get('port'), () => {
     console.log('server started at locahost:8080');
 })
+module.exports = app;
